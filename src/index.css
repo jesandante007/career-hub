@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-primary {
+    @apply px-7 py-3 rounded-lg bg-purple-400 text-xl font-bold text-white
+}
