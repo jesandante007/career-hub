@@ -34,19 +34,19 @@ const JobDetails = () => {
         <div>
           <p className="text-gray-500 mb-6">
             <span className="text-gray-900 font-semibold">
-              Job Description:{" "}
+              Job Description: 
             </span>
             {jobDescription}
           </p>
           <p className="text-gray-500 mb-6">
             <span className="text-gray-900 font-semibold">
-              Job Responsibility:{" "}
+              Job Responsibility: 
             </span>
             {jobResponsibility}
           </p>
           <p className="text-gray-500 mb-6">
             <span className="text-gray-900 font-semibold">
-              Educational Requirements:{" "}
+              Educational Requirements: 
             </span>
             <br />
             {educationalRequirements}

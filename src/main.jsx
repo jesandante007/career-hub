@@ -8,6 +8,7 @@ import JobDetails from './components/JobDetails'
 import AppliedJob from './components/AppliedJob'
 import { loaderCustom } from './utils/loader'
 import ErrorPage from './components/ErrorPage'
+import Statistics from './components/Statistics'
 
 const router = createBrowserRouter([
   {
@@ -21,12 +22,16 @@ const router = createBrowserRouter([
         loader: () => fetch('/jobs.json')
       },
       {
+        path: '/statistics',
+        element: <Statistics />
+      },
+      {
         path: '/job/:id',
         element: <JobDetails />,
         loader: ({params}) => loaderCustom(params.id)
       },
       {
-        path: 'applied',
+        path: '/applied',
         element: <AppliedJob />
       }
     ]
