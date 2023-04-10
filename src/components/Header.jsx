@@ -5,17 +5,21 @@ import ActiveLink from "./ActiveLink";
 const Header = () => {
   return (
     <div className="bg-primary">
-      <header className="container mx-auto flex justify-between items-center py-5">
+      <header className="container mx-auto lg:flex justify-between items-center py-5">
+        <p className="text-center">
         <Link to="/" className="text-4xl font-bold">
           Job Hunter
         </Link>
-        <nav className="flex gap-8 text-gray-500">
+        </p>
+        <nav className="flex justify-center gap-8 text-gray-500 mt-6 lg:mt-0">
           <ActiveLink to="/">Home</ActiveLink>
           <ActiveLink to="/statistics">Statistics</ActiveLink>
           <ActiveLink to="/applied">Applied Jobs</ActiveLink>
           <ActiveLink to="/blog">Blog</ActiveLink>
         </nav>
-        <button className="btn-primary">Start Applying</button>
+        <div className="text-center mt-6 lg:mt-0">
+          <button className="btn-primary">Start Applying</button>
+        </div>
       </header>
     </div>
   );

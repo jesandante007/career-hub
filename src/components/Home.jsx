@@ -16,13 +16,13 @@ const Home = () => {
   }, []);
 
   const handleSeeAll = () => {
-    setSeeAll(!seeAll)
-  }
+    setSeeAll(!seeAll);
+  };
 
   return (
     <div>
       <div className="bg-primary">
-        <section className="container mx-auto flex justify-between pt-10">
+        <section className="container mx-auto lg:flex justify-between pt-10 px-2 lg:px-0">
           <div>
             <h1 className="text-7xl font-bold leading-tight">
               One Step <br />
@@ -34,35 +34,37 @@ const Home = () => {
               you need. Its your future. Come find it. Manage all your job
               application from start to finish.
             </p>
-            <button className="btn-primary">Get Started</button>
+            <div className="text-center lg:text-start">
+              <button className="btn-primary">Get Started</button>
+            </div>
           </div>
           <div>
             <img src={people} alt="man" />
           </div>
         </section>
       </div>
-      <section className="container mx-auto mt-32">
+      <section className="container mx-auto mt-32 px-2 lg:px-0">
         <h2 className="text-5xl font-bold text-center">Job Category</h2>
         <p className="text-gray-500 text-center mt-4 mb-8">
           Explore thousands of job opportunities with all the information you
           need. Its your future
         </p>
-        <div className="grid grid-cols-4 gap-6">
+        <div className="grid lg:grid-cols-4 gap-6">
           {categories.map((category) => (
             <Category key={category.id} category={category} />
           ))}
         </div>
       </section>
-      <section className="container mx-auto mt-32">
+      <section className="container mx-auto mt-32 px-2 lg:px-0">
         <h2 className="text-5xl font-bold text-center">Featured Jobs</h2>
         <p className="text-gray-500 text-center mt-4 mb-8">
           Explore thousands of job opportunities with all the information you
           need. Its your future
         </p>
-        <div className="grid grid-cols-2 gap-6">
-          {
-            jobs.slice(0, seeAll ? 4 : 6).map((job) => (<Job key={job.id} job={job} />))
-          }
+        <div className="grid lg:grid-cols-2 gap-6">
+          {jobs.slice(0, seeAll ? 4 : 6).map((job) => (
+            <Job key={job.id} job={job} />
+          ))}
         </div>
         <div className="mt-6 text-center">
           {seeAll ? (
