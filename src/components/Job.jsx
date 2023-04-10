@@ -40,11 +40,11 @@ const Job = ({ job }) => {
           <p>Salary: {salary}</p>
         </div>
       </div>
-        <Link to={`/job/${id}`}>
-          <button className="btn-primary">
-            View Details
-          </button>
-        </Link>
+      <Link to={`/job/${id}`}>
+        <button className="btn-primary">
+          View Details
+        </button>
+      </Link>
     </div>
   );
 };

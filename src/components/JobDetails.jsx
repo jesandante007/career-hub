@@ -5,6 +5,7 @@ import jIcon from "../assets/Icons/Frame-1.png";
 import pIcon from "../assets/Icons/Frame-2.png";
 import eIcon from "../assets/Icons/Frame-3.png";
 import lIcon from "../assets/Icons/Frame-4.png";
+import { addToDB } from "../utils/fakeDB";
 
 const JobDetails = () => {
   const { id } = useParams();
@@ -21,6 +22,11 @@ const JobDetails = () => {
     experiences,
     contactInformation,
   } = job;
+
+  const handleApplyNow = job => {
+    addToDB(job)
+    // console.log(job);
+  }
 
   return (
     <>
@@ -96,7 +102,7 @@ const JobDetails = () => {
               </p>
             </div>
           </div>
-          <button className="btn-primary mt-6 w-full">Apply Now</button>
+          <button onClick={()=> handleApplyNow(job)} className="btn-primary mt-6 w-full">Apply Now</button>
         </div>
       </section>
     </>
