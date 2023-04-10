@@ -6,21 +6,24 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './components/Home'
 import JobDetails from './components/JobDetails'
 import AppliedJob from './components/AppliedJob'
+import { loaderCustom } from './utils/loader'
+import ErrorPage from './components/ErrorPage'
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: '/',
         element: <Home />,
-        loader: () => fetch('jobs.json')
+        loader: () => fetch('/jobs.json')
       },
       {
         path: '/job/:id',
         element: <JobDetails />,
-        loader: () => fetch('jobs.json')
+        loader: ({params}) => loaderCustom(params.id)
       },
       {
         path: 'applied',

@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { useLoaderData, useParams } from "react-router-dom";
+import React from "react";
+import { useLoaderData } from "react-router-dom";
 import dIcon from "../assets/Icons/Frame.png";
 import jIcon from "../assets/Icons/Frame-1.png";
 import pIcon from "../assets/Icons/Frame-2.png";
@@ -8,9 +8,7 @@ import lIcon from "../assets/Icons/Frame-4.png";
 import { addToDB } from "../utils/fakeDB";
 
 const JobDetails = () => {
-  const { id } = useParams();
-  const jobs = useLoaderData();
-  const job = jobs.find((job) => job.id == id);
+  const job = useLoaderData();
 
   const {
     jobTitle,
@@ -23,13 +21,12 @@ const JobDetails = () => {
     contactInformation,
   } = job;
 
-  const handleApplyNow = job => {
-    addToDB(job)
-    // console.log(job);
-  }
+  const handleApplyNow = (job) => {
+    addToDB(job);
+  };
 
   return (
-    <>
+    <div>
       <section className="bg-primary py-32 text-4xl font-semibold ">
         <h2 className="text-center">Job Details</h2>
       </section>
@@ -84,14 +81,14 @@ const JobDetails = () => {
               <img className="h-4" src={pIcon} alt="" />
               <p className="text-gray-500">
                 <span className="text-gray-900 font-semibold">Phone: </span>
-                {contactInformation.phone}
+                {contactInformation?.phone}
               </p>
             </div>
             <div className="flex items-center gap-2 mb-4">
               <img className="h-4" src={eIcon} alt="" />
               <p className="text-gray-500">
                 <span className="text-gray-900 font-semibold">Email: </span>
-                {contactInformation.email}
+                {contactInformation?.email}
               </p>
             </div>
             <div className="flex items-center gap-2 mb-4">
@@ -102,10 +99,15 @@ const JobDetails = () => {
               </p>
             </div>
           </div>
-          <button onClick={()=> handleApplyNow(job)} className="btn-primary mt-6 w-full">Apply Now</button>
+          <button
+            onClick={() => handleApplyNow(job)}
+            className="btn-primary mt-6 w-full"
+          >
+            Apply Now
+          </button>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 

@@ -1,110 +1,110 @@
 [
-    {
-      "id": 1,
-      "companyLogo": "../src/assets/Logo/google-1-1 1-1.png",
-      "jobTitle": "Technical Database Engineer",
-      "companyName": "Google LLC",
-      "workFrom": "remote",
-      "location": "New York, NY",
-      "workTime": "Full Time",
-      "salary": "100k - 150k",
-      "jobDescription": "We are seeking a talented software engineer to join our team and help us build amazing software products.",
-      "jobResponsibility": "Responsibilities include developing and maintaining software applications, collaborating with cross-functional teams to identify and prioritize features, and participating in code reviews and team meetings.",
-      "educationalRequirements": "Bachelor's degree in Computer Science or related field",
-      "experiences": "3+ years of experience in software development",
-      "contactInformation": {
-        "phone": "555-555-1234",
-        "email": "jobs@google.com"
-      }
-    },
-    {
-      "id": 2,
-      "companyLogo": "../src/assets/Logo/netflix-4 1.png",
-      "jobTitle": "Senior Product Designer",
-      "companyName": "Netflix",
-      "workFrom": "Onsite",
-      "location": "New York, NY",
-      "workTime": "Full Time",
-      "salary": "100k - 150k",
-      "jobDescription": "We are seeking a talented software engineer to join our team and help us build amazing software products.",
-      "jobResponsibility": "Responsibilities include developing and maintaining software applications, collaborating with cross-functional teams to identify and prioritize features, and participating in code reviews and team meetings.",
-      "educationalRequirements": "Bachelor's degree in Computer Science or related field",
-      "experiences": "3+ years of experience in software development",
-      "contactInformation": {
-        "phone": "555-555-1234",
-        "email": "jobs@netflix.com"
-      }
-    },
-    {
-      "id": 3,
-      "companyLogo": "../src/assets/Logo/tesla-9 1.png",
-      "jobTitle": "Software Engineer",
-      "companyName": "Tesla",
-      "workFrom": "Onsite",
-      "location": "San Francisco, CA",
-      "workTime": "Full Time",
-      "salary": "100k - 150k",
-      "jobDescription": "We are seeking a talented software engineer to join our team and help us build amazing software products.",
-      "jobResponsibility": "Responsibilities include developing and maintaining software applications, collaborating with cross-functional teams to identify and prioritize features, and participating in code reviews and team meetings.",
-      "educationalRequirements": "Bachelor's degree in Computer Science or related field",
-      "experiences": "3+ years of experience in software development",
-      "contactInformation": {
-        "phone": "555-555-1234",
-        "email": "jobs@tesla.com"
-      }
-    },
-    {
-        "id": 4,
-        "companyLogo": "../src/assets/Logo/amazon.png",
-        "jobTitle": "Data Analyst",
-        "companyName": "Amazon",
-        "workFrom": "remote",
-        "location": "Washington",
-        "workTime": "Full Time",
-        "salary": "100k - 150k",
-        "jobDescription": "We are seeking a talented data analyst to join our team and help us make data-driven decisions.",
-        "jobResponsibility": "Responsibilities include analyzing and interpreting data, identifying trends and insights, and communicating findings to stakeholders.",
-        "educationalRequirements": "Bachelor's degree in Computer Science or related field",
-        "experiences": "1+ years of experience in data analysis",
-        "contactInformation": {
-          "phone": "555-555-9012",
-          "email": "jobs@amazon.com"
-        }
-    },
-    {
-        "id": 5,
-        "companyLogo": "../src/assets/Logo/Facebook-Logo.png",
-        "jobTitle": "Data Analyst",
-        "companyName": "Facebook",
-        "workFrom": "remote",
-        "location": "Washington",
-        "workTime": "Full Time",
-        "salary": "100k - 150k",
-        "jobDescription": "We are seeking a talented data analyst to join our team and help us make data-driven decisions.",
-        "jobResponsibility": "Responsibilities include analyzing and interpreting data, identifying trends and insights, and communicating findings to stakeholders.",
-        "educationalRequirements": "Bachelor's degree in Computer Science or related field",
-        "experiences": "1+ years of experience in software development",
-        "contactInformation": {
-          "phone": "555-555-9012",
-          "email": "jobs@facebook.com"
-        }
-    },
-    {
-        "id": 6,
-        "companyLogo": "../src/assets/Logo/apple-logo.png",
-        "jobTitle": "Software Engineer",
-        "companyName": "Apple",
-        "workFrom": "Onsite",
-        "location": "California",
-        "workTime": "Full Time",
-        "salary": "100k - 150k",
-        "jobDescription": "We are seeking a talented data analyst to join our team and help us make data-driven decisions.",
-        "jobResponsibility": "Responsibilities include analyzing and interpreting data, identifying trends and insights, and communicating findings to stakeholders.",
-        "educationalRequirements": "Bachelor's degree in Computer Science or related field",
-        "experiences": "1+ years of experience in data analysis",
-        "contactInformation": {
-          "phone": "555-555-9012",
-          "email": "jobs@apple.com"
-        }
+  {
+    "id": 1,
+    "companyLogo": "../src/assets/Logo/google-1-1 1-1.png",
+    "jobTitle": "Technical Database Engineer",
+    "companyName": "Google LLC",
+    "workFrom": "remote",
+    "location": "New York, NY",
+    "workTime": "Full Time",
+    "salary": "100k - 150k",
+    "jobDescription": "We are seeking a talented software engineer to join our team and help us build amazing software products.",
+    "jobResponsibility": "Responsibilities include developing and maintaining software applications, collaborating with cross-functional teams to identify and prioritize features, and participating in code reviews and team meetings.",
+    "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+    "experiences": "3+ years of experience in software development",
+    "contactInformation": {
+      "phone": "555-555-1234",
+      "email": "jobs@google.com"
     }
+  },
+  {
+    "id": 2,
+    "companyLogo": "../src/assets/Logo/netflix-4 1.png",
+    "jobTitle": "Senior Product Designer",
+    "companyName": "Netflix",
+    "workFrom": "Onsite",
+    "location": "New York, NY",
+    "workTime": "Full Time",
+    "salary": "100k - 150k",
+    "jobDescription": "We are seeking a talented software engineer to join our team and help us build amazing software products.",
+    "jobResponsibility": "Responsibilities include developing and maintaining software applications, collaborating with cross-functional teams to identify and prioritize features, and participating in code reviews and team meetings.",
+    "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+    "experiences": "3+ years of experience in software development",
+    "contactInformation": {
+      "phone": "555-555-1234",
+      "email": "jobs@netflix.com"
+    }
+  },
+  {
+    "id": 3,
+    "companyLogo": "../src/assets/Logo/tesla-9 1.png",
+    "jobTitle": "Software Engineer",
+    "companyName": "Tesla",
+    "workFrom": "Onsite",
+    "location": "San Francisco, CA",
+    "workTime": "Full Time",
+    "salary": "100k - 150k",
+    "jobDescription": "We are seeking a talented software engineer to join our team and help us build amazing software products.",
+    "jobResponsibility": "Responsibilities include developing and maintaining software applications, collaborating with cross-functional teams to identify and prioritize features, and participating in code reviews and team meetings.",
+    "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+    "experiences": "3+ years of experience in software development",
+    "contactInformation": {
+      "phone": "555-555-1234",
+      "email": "jobs@tesla.com"
+    }
+  },
+  {
+    "id": 4,
+    "companyLogo": "../src/assets/Logo/amazon.png",
+    "jobTitle": "Data Analyst",
+    "companyName": "Amazon",
+    "workFrom": "remote",
+    "location": "Washington",
+    "workTime": "Full Time",
+    "salary": "100k - 150k",
+    "jobDescription": "We are seeking a talented data analyst to join our team and help us make data-driven decisions.",
+    "jobResponsibility": "Responsibilities include analyzing and interpreting data, identifying trends and insights, and communicating findings to stakeholders.",
+    "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+    "experiences": "1+ years of experience in data analysis",
+    "contactInformation": {
+      "phone": "555-555-9012",
+      "email": "jobs@amazon.com"
+    }
+  },
+  {
+    "id": 5,
+    "companyLogo": "../src/assets/Logo/Facebook-Logo.png",
+    "jobTitle": "Data Analyst",
+    "companyName": "Facebook",
+    "workFrom": "remote",
+    "location": "Washington",
+    "workTime": "Full Time",
+    "salary": "100k - 150k",
+    "jobDescription": "We are seeking a talented data analyst to join our team and help us make data-driven decisions.",
+    "jobResponsibility": "Responsibilities include analyzing and interpreting data, identifying trends and insights, and communicating findings to stakeholders.",
+    "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+    "experiences": "1+ years of experience in software development",
+    "contactInformation": {
+      "phone": "555-555-9012",
+      "email": "jobs@facebook.com"
+    }
+  },
+  {
+    "id": 6,
+    "companyLogo": "../src/assets/Logo/apple-logo.png",
+    "jobTitle": "Software Engineer",
+    "companyName": "Apple",
+    "workFrom": "Onsite",
+    "location": "California",
+    "workTime": "Full Time",
+    "salary": "100k - 150k",
+    "jobDescription": "We are seeking a talented data analyst to join our team and help us make data-driven decisions.",
+    "jobResponsibility": "Responsibilities include analyzing and interpreting data, identifying trends and insights, and communicating findings to stakeholders.",
+    "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+    "experiences": "1+ years of experience in data analysis",
+    "contactInformation": {
+      "phone": "555-555-9012",
+      "email": "jobs@apple.com"
+    }
+  }
 ]

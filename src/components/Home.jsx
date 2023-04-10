@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link, useLoaderData } from "react-router-dom";
+import { useLoaderData } from "react-router-dom";
 import people from "../assets/All Images/P3OLGJ1 copy 1.png";
 import Category from "./Category";
 import Job from "./Job";
