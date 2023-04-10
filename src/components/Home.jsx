@@ -22,7 +22,7 @@ const Home = () => {
             <h1 className="text-7xl font-bold leading-tight">
               One Step <br />
               Closer To Your <br />
-              <span className="text-purple-400">Dream Job</span>
+              <span className="text-violet-500">Dream Job</span>
             </h1>
             <p className="text-lg text-gray-500 py-7">
               Explore thousands of job opportunities with all the information
