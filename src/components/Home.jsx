@@ -5,14 +5,19 @@ import Category from "./Category";
 import Job from "./Job";
 
 const Home = () => {
+  const jobs = useLoaderData();
+  const [seeAll, setSeeAll] = useState(true);
   const [categories, setCategories] = useState([]);
-  const jobs = useLoaderData()
 
   useEffect(() => {
     fetch("category.json")
       .then((res) => res.json())
       .then((data) => setCategories(data));
   }, []);
+
+  const handleSeeAll = () => {
+    setSeeAll(!seeAll)
+  }
 
   return (
     <div>
@@ -56,8 +61,17 @@ const Home = () => {
         </p>
         <div className="grid grid-cols-2 gap-6">
           {
-            jobs.map(job => <Job key={job.id} job={job} />)
+            jobs.slice(0, seeAll ? 4 : 6).map((job) => (<Job key={job.id} job={job} />))
           }
+        </div>
+        <div className="mt-6 text-center">
+          {seeAll ? (
+            <button onClick={() => handleSeeAll()} className="btn-primary">
+              See All Jobs
+            </button>
+          ) : (
+            ""
+          )}
         </div>
       </section>
     </div>
