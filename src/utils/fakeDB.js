@@ -3,7 +3,6 @@ import { toast } from "react-hot-toast";
 const addToDB = (job) => {
   let cart = [];
   const storedCard = getAppliedJob();
-  console.log(storedCard);
 
   if (storedCard.length > 0) {
     const exist = storedCard.find((jb) => jb.id == job.id);
