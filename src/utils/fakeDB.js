@@ -1,3 +1,5 @@
+import { toast } from "react-hot-toast";
+
 const addToDB = (job) => {
   let cart = [];
   const storedCard = getAppliedJob();
@@ -8,6 +10,8 @@ const addToDB = (job) => {
     if (!exist) {
       cart = [...storedCard, job]
       localStorage.setItem("applied-job", JSON.stringify(cart));
+    }else {
+      toast.error('Already Applied')
     }
   }else {
     cart.push(job)

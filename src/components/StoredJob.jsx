@@ -1,6 +1,7 @@
 import React from "react";
 import lIcon from "../assets/Icons/Frame-4.png";
 import dIcon from "../assets/Icons/Frame.png";
+import { Link } from "react-router-dom";
 
 const StoredJob = ({ job }) => {
   const {
@@ -42,7 +43,11 @@ const StoredJob = ({ job }) => {
           </div>
         </div>
         <div className="ms-auto">
-        <button className="btn-primary">View Details</button>
+          <Link to = {`/job/${id}`}>
+            <button className="btn-primary">
+              View Details
+            </button>
+          </Link>
         </div>
       </div>
     </section>
