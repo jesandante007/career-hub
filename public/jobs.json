@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "companyLogo": "../src/assets/Logo/google-1-1 1-1.png",
+    "companyLogo": "https://i.ibb.co/B6gfMRB/google-1-1-1.png",
     "jobTitle": "Technical Database Engineer",
     "companyName": "Google LLC",
     "workFrom": "remote",
@@ -19,7 +19,7 @@
   },
   {
     "id": 2,
-    "companyLogo": "../src/assets/Logo/netflix-4 1.png",
+    "companyLogo": "https://i.ibb.co/ZcqV3GL/netflix-4-1.png",
     "jobTitle": "Senior Product Designer",
     "companyName": "Netflix",
     "workFrom": "Onsite",
@@ -37,7 +37,7 @@
   },
   {
     "id": 3,
-    "companyLogo": "../src/assets/Logo/tesla-9 1.png",
+    "companyLogo": "https://i.ibb.co/dgS6cD3/tesla-9-1.png",
     "jobTitle": "Software Engineer",
     "companyName": "Tesla",
     "workFrom": "Onsite",
@@ -55,7 +55,7 @@
   },
   {
     "id": 4,
-    "companyLogo": "../src/assets/Logo/amazon.png",
+    "companyLogo": "https://i.ibb.co/M5K6bx5/amazon.png",
     "jobTitle": "Data Analyst",
     "companyName": "Amazon",
     "workFrom": "remote",
@@ -73,7 +73,7 @@
   },
   {
     "id": 5,
-    "companyLogo": "../src/assets/Logo/Facebook-Logo.png",
+    "companyLogo": "https://i.ibb.co/fpbt77m/Facebook-Logo.png",
     "jobTitle": "Data Analyst",
     "companyName": "Facebook",
     "workFrom": "remote",
@@ -91,7 +91,7 @@
   },
   {
     "id": 6,
-    "companyLogo": "../src/assets/Logo/apple-logo.png",
+    "companyLogo": "https://i.ibb.co/Z6zDYj5/apple-logo.png",
     "jobTitle": "Software Engineer",
     "companyName": "Apple",
     "workFrom": "Onsite",
