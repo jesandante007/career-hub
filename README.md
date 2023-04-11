@@ -4,7 +4,7 @@ Best online platform for find your dream job.
 
 
 ## Live Link
-Hosted in Netlify -> [HeroGadget](https://herogadget.netlify.app/)
+Hosted in Netlify -> [Job Hunter](https://career-hub-jesan.netlify.app/)
 
 
 ## SPA (Single Page Application)
